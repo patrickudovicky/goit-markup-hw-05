@@ -597,6 +597,7 @@ color: var(--navy-blue);
 
 .footer-form{
     gap: 24px;
+    display: flex;
 }
 
 .footer-input{
@@ -634,7 +635,7 @@ letter-spacing: 0.04em;
 text-align: center;
 color: var(--white);
  padding: 8px 24px;
- width: 165px;
+ min-width: 165px;
  height: 40px;
  background: var(--iris);
  color: #ffffff;
