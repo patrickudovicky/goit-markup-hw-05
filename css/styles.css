@@ -719,6 +719,14 @@ outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-icon{
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .textarea{
 border: 1px solid var(--navy-blue-modal);
 border-radius: 4px;
@@ -742,6 +750,10 @@ resize: none;}
     border: 1px solid var(--iris);
 }
 
+.form-input:hover + .modal-icon,
+.form-input:focus + .modal-icon{
+    fill: var(--iris);
+}
 
 .textarea:hover,
 .textarea:focus{
@@ -750,6 +762,10 @@ resize: none;}
 
 .form-section{
     position: relative; 
+}
+
+.form-comment-cntnr{
+    margin-bottom: 16px ;
 }
 
 .label-element{
@@ -790,7 +806,7 @@ gap: 10px;
 border-radius: 4px;
 border: none;
 padding: 16px 32px;
-width: 169px;
+min-width: 169px;
 height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: var(--iris);
