@@ -431,42 +431,48 @@
                     <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                 </svg>
             </button>
-            <p class="group-title">Leave your contacts and we will call you back</p>
+            <p class="group-title contact-form">Leave your contacts and we will call you back</p>
              <form class="form" name="contact_form">           
                  <div class="form-fields-cntnr">
                      <label class="form-label">
                          Name
-                         <input
+                         <div class="form-section">
+                            <input
                              class="form-input"
                              type="text"
                              name="username"
+                             for="user-name"
                          />
-                    <svg class="modal-icon" height="24" width="18">
-                        <use href="./images/icons.svg#icon-Vector"></use>
-                    </svg>
+                             <svg class="modal-icon" height="24" width="18">
+                                 <use href="./images/icons.svg#icon-Vector"></use>
+                             </svg>
+                         </div>
                      </label>
                 </div>
                 <div class="form-fields-cntnr">
                      <label class="form-label">
                          Phone
+                         <div class="form-section"></div>
                          <input
                              class="form-input"
                              type="tel"
                              name="phone"
                          />
                      <svg class="modal-icon" height="24" width="18">
-                        <use href="./images/icons.svg#icon-Vector-1" ></use>
+                        <use href="./images/icons.svg#icon-Vector-1"></use>
                     </svg>
                      </label >
                 </div>
                  <div class="form-fields-cntnr">
                      <label class="form-label">
                          Email
+                         <div class="input-container">
                          <input 
                              class="form-input"
                              type="email"
                              name="email"
                          />
+                        </div>
                      </label >
                      <svg class="modal-icon" height="24" width="18">
                         <use href="./images/icons.svg#icon-Vector-2"></use>
@@ -475,6 +481,7 @@
                  <div class="form-comment-cntnr">
                      <label class="form-label">
                          Comment
+                         <div class="form-section comment-section">
                          <textarea
                              class="textarea"
                              type="text"
@@ -484,6 +491,7 @@
                              >
                              
                         </textarea>
+                    </div>
                     </label>
                     </div>
                     <div class="agreement-element">
