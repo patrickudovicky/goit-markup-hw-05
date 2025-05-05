@@ -788,7 +788,7 @@ resize: none;}
 }
 
 .checkbox-element:checked + .form-label .label-element {
-    background-color:var(--iris);
+    background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
 }
