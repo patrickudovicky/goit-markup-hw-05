@@ -615,7 +615,7 @@ color: var(--navy-blue);
 }
 
 .footer-input::placeholder{
-    color #ffffff;
+    color: #ffffff;
 }
 
 .footer-sub{
