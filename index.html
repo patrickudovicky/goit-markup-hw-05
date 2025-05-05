@@ -434,14 +434,14 @@
             <p class="title-form">Leave your contacts and we will call you back</p>
              <form class="form" name="contact_form">           
                  <div class="form-fields-cntnr">
-                     <label class="form-label">
+                     <label for="user-name" class="form-label">
                          Name
                          <div class="form-section">
                             <input
                              class="form-input"
                              type="text"
                              name="username"
-                             for="user-name"
+                             id="user-name"
                          />
                              <svg class="modal-icon" height="24" width="18">
                                  <use href="./images/icons.svg#icon-Vector"></use>
@@ -450,13 +450,14 @@
                      </label>
                 </div>
                 <div class="form-fields-cntnr">
-                     <label class="form-label">
+                     <label for="user-phone" class="form-label">
                          Phone
                          <div class="form-section">
                          <input
                              class="form-input"
                              type="tel"
-                             name="phone"
+                             name="user-phone"
+                             id="user-phone"
                          />
                      <svg class="modal-icon" height="24" width="18">
                         <use href="./images/icons.svg#icon-Vector-1"></use>
@@ -465,13 +466,14 @@
                      </label >
                 </div>
                  <div class="form-fields-cntnr">
-                     <label class="form-label">
+                     <label for="user-email" class="form-label">
                          Email
                          <div class="input-container">
                          <input 
                              class="form-input"
                              type="email"
-                             name="email"
+                             name="user-email"
+                             id="user-phone"
                          />
                          <svg class="modal-icon" height="24" width="18">
                             <use href="./images/icons.svg#icon-Vector-2"></use>
@@ -480,13 +482,14 @@
                      </label >
                 </div>
                  <div class="form-comment-cntnr">
-                     <label class="form-label">
+                     <label for="user-comment" class="form-label">
                          Comment
                          <div class="form-section comment-section">
                          <textarea
                              class="textarea"
                              type="text"
-                             name="comment"
+                             name="user-comment"
+                             id="user-comment"
                              placeholder="Text input"
                              rows="6"
                              >
@@ -495,20 +498,25 @@
                     </label>
                     </div>
                     <div class="agreement-element">
-                         <label>
                              <input 
                                  type="checkbox"
                                  name="user-privacy"
                                  id="user-privacy"
                                  value="true"
+                                 class="checkbox-element"
                              />
-                                 I accept the terms and conditions of the <a class="privacy-link" target="_blank" href="">Privacy Policy</a>
+                         <label for="user-privacy" class="form-label">
+                          <span class="label-element">
+                            <svg class="agreement-icon" height="8" width="10">
+                                <use href="./images/icons.svg#icon-check-mark"></use>
+                            </svg>
+                          </span>
+                          I accept the terms and conditions of the <a class="privacy-link">Privacy Policy</a> 
                          </label>
+                    </div>
+                         <button class="btn-send text-btn" type="submit">Send</button> 
+                     </form>
                 </div>
-                 <button class="btn-send" type="submit">Send</button>
-                 
-          </form>
-        </div>
-    </div>
+             </div>
 </body>
 </html>
