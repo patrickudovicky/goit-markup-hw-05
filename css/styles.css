@@ -783,7 +783,7 @@ resize: none;}
     fill: transparent;
 }
 
-.check-box-element:checked{
+.checkbox-element:checked + .form-label .label-element {
     background-color:var(--iris);
     border: none;
     fill: #f4f4fd;
