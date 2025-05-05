@@ -122,7 +122,7 @@ color: var(--navy-blue);
     padding: 0;
 }
 
-.page-info-item .link::after {
+.studio-element::after {
     content: '';
     width: 100%;
     position: absolute;
