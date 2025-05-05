@@ -736,7 +736,7 @@ font-weight: 400;
 font-size: 12px;
 
 /* line-height: 14px; */ 
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: var(--navy-blue-modal);
 background-color: transparent;
@@ -764,6 +764,10 @@ resize: none;}
     position: relative; 
 }
 
+.comment-section{
+    margin-bottom: 16px 
+}
+
 .form-comment-cntnr{
     margin-bottom: 16px ;
 }
@@ -787,6 +791,10 @@ resize: none;}
     background-color:var(--iris);
     border: none;
     fill: #f4f4fd;
+}
+
+.agreement-element{
+    margin-bottom: 24px;
 }
 
  .privacy-link{
